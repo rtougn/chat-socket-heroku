@@ -1,0 +1,10 @@
+#wrapper{width: 600px; margin: auto;}
+#frmLogin{background-color: gray; text-align: center; padding: 10px;}
+#frmChat{height: 300px;}
+#left{float: left; width: 30%; text-align: center; height: 300px; color: green; border: solid 1px black;}
+#right{float: right; width: 65%; height: 300px; background-color: gray;}
+#sayHello{text-align: right;}
+#listMessages{height: 200px; border: solid 1px black; margin: 10px; background-color: white; overflow-y: scroll; word-break: break-all;}
+#typing{height: 20px; text-align: center;}
+#sendMessages{text-align: center;}
+.mymessages{text-align: right;}

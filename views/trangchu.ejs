@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Demo Chat</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="https://mamamathuat.herokuapp.com/socket.io/socket.io.js"></script>
+	<script src="xuly.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="frmLogin">
+			<h3>Login</h3>
+			<input type="text" id="txtUsername">
+			<input type="button" id="btnRegister" value="Register">
+		</div>
+		<div id="frmChat">
+			<div id="left">
+				<h4>Online</h4>
+				<div id="userOnline"></div>
+			</div>
+			<div id="right">
+				<div id="sayHello">
+					<span id="currentUser"></span>
+					<input type="button" id="btnLogout" value="Logout">
+				</div>
+				<div id="listMessages"></div>
+				<div id="typing"></div>
+				<div id="sendMessages">
+					<input type="text" id="txtMessages">
+					<input type="button" id="btnSend" value="Send">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
